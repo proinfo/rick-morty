@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/uk">Home</router-link> |
     <Prefetch v-bind:url="'/edg-api/api/character'">
-      <router-link v-bind:to="'/characters'">Characters</router-link>
+      <router-link v-bind:to="'/uk/characters'">Characters</router-link>
     </Prefetch>
   </nav>
   <router-view />
